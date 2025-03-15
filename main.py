@@ -57,8 +57,6 @@ async def process_query(query: str, user_id: str, request_id: str, use_web_searc
                     - do not use shadow, padding, margin and any style in the outer box.
 
                     - use a smaller font size for the output.
-                    - if you don't have an answer, respond with: "I don't have an answer for that yet."
-                    - if you found that the query is not related to the context, respond with: "I am not sure about that."
 """
             )
         }]
